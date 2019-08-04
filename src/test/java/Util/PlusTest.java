@@ -16,4 +16,9 @@ public class PlusTest {
     public void calcTest() {
         assertThat(Plus.calc(3,5), is(8));
     }
+
+    @Test
+    public void calcTest2() {
+        assertThat(Plus.calc(5,6), is(11));
+    }
 }
